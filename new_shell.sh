@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+echo "Installing curl-devel..."
+yum -y install curl-devel
 echo "Installing git..."
 yum -y install git
 echo "Installing zsh..."
