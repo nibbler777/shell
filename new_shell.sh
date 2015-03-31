@@ -22,5 +22,5 @@ wget --no-check-certificate https://raw.githubusercontent.com/nibbler777/shell/m
 echo "Adding vi -> vim alias..."
 echo "alias vi='/usr/bin/vim'" >> ~/.zshrc
 echo "Moving .oh-my-zsh and changing shell..."
-cp -r /root/.oh-my-zsh ~/.oh-my-zsh
-chsh -s `which zsh`
+cp -r /root/.oh-my-zsh /home/$1/.oh-my-zsh
+chsh -s `which zsh` $1
