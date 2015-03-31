@@ -19,3 +19,6 @@ mkdir -p ~/.vim/colors
 wget https://raw.githubusercontent.com/nibbler777/shell/master/.vimrc -O ~/.vim/colors/wombat256mod.vim
 echo "Adding vi -> vim alias..."
 echo "alias vi='/usr/bin/vim'" >> ~/.zshrc
+echo "Moving .oh-my-zsh and changing shell..."
+cp -r /root/.oh-my-zsh ~/.oh-my-zsh
+chsh -s `which zsh`
