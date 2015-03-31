@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+echo "Installing git..."
+yum -y install git
 echo "Installing zsh..."
 yum -y install zsh
 echo "Installing wget..."
