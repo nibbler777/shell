@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+#Installs and prepares zsh and vim
+
 echo "Installing curl-devel..."
 yum -y install curl-devel
 echo "Installing git..."
