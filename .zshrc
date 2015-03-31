@@ -50,7 +50,7 @@ plugins=(git extract)
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin/usr/local/mysql-5.6.19-osx10.7-x86_64/bin"
-fortune -s
+#fortune -s
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -80,3 +80,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vi='/usr/bin/vim'
